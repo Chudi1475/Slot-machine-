@@ -25,3 +25,10 @@ def get_number_of_lines():
             print("Please enter a number.")
     return lines
 
+def main():
+    balance = deposit()
+    lines = get_number_of_lines()
+    print(balance, lines)
+
+if __name__ == "__main__":
+    main()
