@@ -1,3 +1,5 @@
+MAX_LINES = 3
+
 def deposit():
     while True:
         amount = input("What would you like to deposit? $")
@@ -32,3 +34,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
